@@ -122,6 +122,12 @@ poetry run uvicorn app.main:app --reload
 poetry run pytest
 ```
 
+### Add Test Dependencies
+
+```
+poetry add --dev pytest-cov
+poetry add --dev pytest-html
+```
 
 ### Generating HTML Test Report:
 
