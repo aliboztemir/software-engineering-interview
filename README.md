@@ -116,26 +116,26 @@ poetry run uvicorn app.main:app --reload
 
 ### 6. Running tests with Poetry
 
-## Running All Tests:
+### Running All Tests:
 
 ```
 poetry run pytest
 ```
 
 
-## Generating HTML Test Report:
+### Generating HTML Test Report:
 
 ```
 poetry run pytest --html=report.html --self-contained-html
 ```
 
-## Measuring Code Coverage:
+### Measuring Code Coverage:
 
 ```
 poetry run pytest --cov=app --cov-report=html
 ```
 
-## Test Files
+### Test Files
 
 Unit Tests: tests/test_unit.py
 Test individual functions and methods with mocks.
@@ -149,11 +149,17 @@ Test API endpoints with a real PostgreSQL database.
 End-to-End Tests: tests/test_end_to_end.py
 Test the full workflow of CRUD operations through the API.
 
-## Summary
+### Summary
 
 HTML Test Report:
 
+![image](https://github.com/user-attachments/assets/d8bcd264-118c-4681-a58e-b860d9a4d25f)
+
+
 Code Coverage: 
+
+![image](https://github.com/user-attachments/assets/3b7ca59d-8e6f-4877-9020-92a823c7a522)
+
 
 
 
